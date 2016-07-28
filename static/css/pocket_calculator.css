@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+body {
+  background-color: #6E6E6E;
+}
+
+.bodyContainer {
+  text-align: center;
+  margin-top: 10%;
+  bcakground-color: pink;
+  position: relative;
+  border: 2px solid #666;
+  border-radius: 35px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  width: 320px;
+  margin: 60px auto;
+  background-color: pink;
+  box-shadow: 5px 5px 2px #333;
+}
+
+input {
+  position: relative;
+  border: 2px solid #666;
+  border-radius: 15px;
+  width: 225px;
+  height: 30px;
+  margin: 7px;
+  margin-top: 1px;
+  boarding: 20px;
+  padding: 10px;
+}
+
+#screen {
+  text-align: right;
+  font-family: 'Share Tech Mono';
+  font-size: 35px;
+}
+
+button {
+  position: relative;
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+  width: 50px;
+  height: 50px;
+  margin: 10px 5px;
+  font-size: 30px;  
+  font-family: 'Share Tech Mono';
+  text-align: center;
+}
+
+button:focus {
+  box-shadow: 0 0 5pt 2pt #FE9A2E;
+  outline: none;
+}
+
+button:active {
+  top: 2px;
+}
+
+.long {
+  width: 115px;
+}
+
+.title {
+  font-family: 'Share Tech Mono';
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.red {
+  background-color: #F7819F;
+}
+
+.blue {
+  background-color: #A9E2F3;
+}
+
+@media screen and (max-width: 450px) {
+  .title {
+    font-family: Arial;
+  }
+  #screen {
+    font-color: #000000;
+    text-align: right;
+    font-size: 38px;
+  }
+  button {
+    background-color: #E6E6E6;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
