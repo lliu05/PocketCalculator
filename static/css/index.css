@@ -6,9 +6,9 @@ body {
 }
 
 .bodyContainer {
+  background-color: pink;
   text-align: center;
   margin-top: 10%;
-  bcakground-color: pink;
   position: relative;
   border: 2px solid #666;
   border-radius: 35px;
@@ -16,8 +16,7 @@ body {
   padding-top: 10px;
   padding-bottom: 25px;
   width: 320px;
-  margin: 60px auto;
-  background-color: pink;
+  margin: 60px auto;  
   box-shadow: 5px 5px 2px #333;
 }
 
@@ -35,7 +34,7 @@ input {
 
 #screen {
   text-align: right;
-  font-family: 'Share Tech Mono';
+  font-family: 'VT323';
   font-size: 35px;
 }
 
