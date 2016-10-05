@@ -1,0 +1,21 @@
+{
+  "name": "PocketCalculator",
+  "version": "0.0.0",
+  "description": "User Story: I can add, subtract, multiply and divide two numbers.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lliu05/PocketCalculator.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/lliu05/PocketCalculator/issues"
+  },
+  "dependencies": {
+    "express": "~4.14.0"
+  }
+}
