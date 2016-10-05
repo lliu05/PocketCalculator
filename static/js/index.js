@@ -44,8 +44,6 @@ $(document).ready(function() {
                 if (entry_num && entry_cal) {
                     entry_num = filterDigitsOverTen(entry_num + "");
                     temp = filterDigitsOverTen(temp);
-                    console.log(entry_num);
-                    console.log(temp);
                     //Calculate a equation with given elements
                     switch (entry_cal) {
                         case '+':
@@ -71,7 +69,6 @@ $(document).ready(function() {
                     }
 
                     //Print result on calculator screen
-                    console.log(total);
                     if (total) {
                         $("#screen").val(total);
                     }
@@ -131,14 +128,11 @@ $(document).ready(function() {
         }
         else {
             if (str.slice(0, 10).indexOf('.') !== -1) {
-                console.log("enter");
-                console.log(str.slice(0, 10).indexOf('.'))
                 if (str[9] === '.') {
                     return str.slice(0, 8);
                 }
                 return parseFloat(str.slice(0, 10));
             }
-            console.log("should be err");
             return null;
         }
     }
