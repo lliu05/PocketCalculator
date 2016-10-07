@@ -129,10 +129,10 @@ $(document).ready(function() {
         else {
             if (str.slice(0, 11).indexOf('.') !== -1) {
                 if (str[9] === '.') {
-                    return str.slice(0, 8);
+                    return str.slice(0, 9);
                 }
                 else if (str[10] === '.') {
-                    return str.slice(0, 9);
+                    return str.slice(0, 10);
                 }
                 return parseFloat(str.slice(0, 10));
             }
