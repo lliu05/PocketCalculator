@@ -127,9 +127,12 @@ $(document).ready(function() {
             return parseFloat(str);
         }
         else {
-            if (str.slice(0, 10).indexOf('.') !== -1) {
+            if (str.slice(0, 11).indexOf('.') !== -1) {
                 if (str[9] === '.') {
                     return str.slice(0, 8);
+                }
+                else if (str[10] === '.') {
+                    return str.slice(0, 9);
                 }
                 return parseFloat(str.slice(0, 10));
             }
