@@ -133,7 +133,7 @@ $(document).ready(function() {
                 }
                 return parseFloat(str.slice(0, 10));
             }
-            return null;
+            return "";
         }
     }
 });
